@@ -1,3 +1,3 @@
 # utils
 
-Utilities that I use
+CLI Tool to add util functions
