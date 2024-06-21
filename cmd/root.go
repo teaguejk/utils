@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"util/cmd/tasks"
+	"util/cmd/cleanup"
 )
 
 // rootCmd represents the base command when called without any subcommands
@@ -26,5 +26,5 @@ func Execute() {
 }
 
 func init() {
-	rootCmd.AddCommand(tasks.TaskCmd)
+	rootCmd.AddCommand(cleanup.CleanupCmd)
 }

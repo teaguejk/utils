@@ -3,7 +3,7 @@ package cleanup
 import (
 	"github.com/spf13/cobra"
 
-	"util/cmd/tasks/cleanup/dir"
+	"util/cmd/cleanup/dir"
 )
 
 var CleanupCmd = &cobra.Command{
